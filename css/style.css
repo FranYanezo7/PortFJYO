@@ -1,70 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Desarrollador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
+    <header>
+        <h1>Francisco Yañez</h1>
+        <p>Desarrollador de Software</p>
+    </header>
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    <section id="about">
+        <h2>Acerca de mí</h2>
+        <p>Soy un jr. Dev con experiencia manejando HTML, Java, Javascript, C#, C, C++, Python y unos cuantos más.</p>
+        <p>Me apasiona el desarrollar videojuegos y solucionar problemas rapidos, disfruto de las game jams y hackathons.</p>
+    </section>
 
-h1 {
-    color: #ebe6e6;
-}
+    <section id="links">
+        <h2>Enlaces</h2>
+        <ul>
+            <li><a href="https://github.com/FranYanezo7" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/[TuPerfil]" target="_blank">LinkedIn</a></li>
+            <li><a href="https://instagram.com/jst.fran" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
 
-h2 {
-    color: #00090e;
-}
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div id="projects-container">
+            </div>
+    </section>
 
-#links ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <footer>
+        <p>2025 &copy; Francisco Yañez</p>
+    </footer>
 
-#links li {
-    display: inline;
-    margin-right: 20px;
-}
-
-#links a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
-
-.project-card h3 {
-    margin-top: 0;
-    color: #007BFF;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    <script src="js/script.js"></script>
+</body>
+</html>
